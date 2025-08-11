@@ -1,38 +1,37 @@
 {
-  "schemaVersion": 1,
-  "id": "noafabricmod",
-  "version": "${version}",
-
-  "name": "Noa Fabric Mod",
-  "description": "this is a test mod (fabric)",
-  "authors": [
-    "Computerslave"
-  ],
-  "contact": {
-    "homepage": "https://thesimpleteam.net/",
-    "sources": "https://github.com/Computerslave/noafabricmod"
-  },
-
-  "license": "MIT",
-  "icon": "assets/noafabricmod/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "fr.computerslave.noafabricmod.NoaFabricMod"
-    ]
-  },
-  "mixins": [
-    "noafabricmod.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.11.3",
-    "fabric": "*",
-    "minecraft": "1.18.x",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"schemaVersion": 1,
+	"id": "noafabricmod",
+	"version": "${version}",
+	"name": "NoaFabricMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/noafabricmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.noa.noafabricmod.NoaFabricMod"
+		],
+		"fabric-datagen": [
+			"fr.noa.noafabricmod.NoaFabricModDataGenerator"
+		]
+	},
+	"mixins": [
+		"noafabricmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }
