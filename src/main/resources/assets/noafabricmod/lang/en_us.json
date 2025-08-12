@@ -3,5 +3,8 @@
   "block.noafabricmod.ruby_ore": "Ruby Ore",
   "itemGroup.noafabricmod.noafabricmod": "Noa Fabric Mod",
   "block.noafabricmod.ruby_block": "Ruby Block",
-  "item.noafabricmod.pepper": "Pepper"
+  "item.noafabricmod.pepper": "Pepper",
+  "item.noafabricmod.misini_sheet": "Misini's Sheet",
+  "item.noafabricmod.raw_chessgamite": "Raw Chessgamite",
+  "item.noafabricmod.chessgamite_ingot": "Chessgamite Ingot"
 }
