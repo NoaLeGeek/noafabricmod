@@ -5,5 +5,8 @@
   "item.noafabricmod.pepper": "Piment",
   "item.noafabricmod.misini_sheet": "Feuille de misini",
   "item.noafabricmod.raw_chessgamite": "Chessgamite brut",
-  "item.noafabricmod.chessgamite_ingot": "Lingot de chessgamite"
+  "item.noafabricmod.chessgamite_ingot": "Lingot de chessgamite",
+  "block.noafabricmod.chessgamite_block": "Bloc de chessgamite",
+  "block.noafabricmod.chessgamite_ore": "Minerai de chessgamite",
+  "itemGroup.noafabricmod.chessgame_group": "Chessgame"
 }
