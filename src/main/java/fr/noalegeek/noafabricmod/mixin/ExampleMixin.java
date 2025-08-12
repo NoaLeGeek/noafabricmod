@@ -1,4 +1,4 @@
-package fr.noa.noafabricmod.mixin;
+package fr.noalegeek.noafabricmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

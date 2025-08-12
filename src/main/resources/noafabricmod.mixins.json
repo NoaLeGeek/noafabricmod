@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "fr.noa.noafabricmod.mixin",
+	"package": "fr.noalegeek.noafabricmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

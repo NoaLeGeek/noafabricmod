@@ -3,23 +3,26 @@
 	"id": "noafabricmod",
 	"version": "${version}",
 	"name": "NoaFabricMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "NoaFabricMod is a Fabric mod example to test things, I don't really know what I'm doing.",
 	"authors": [
-		"Me!"
+		"NoaLeGeek"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/NoaLeGeek",
+		"sources": "https://github.com/NoaLeGeek/noafabricmod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/noafabricmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"fr.noa.noafabricmod.NoaFabricMod"
+			"fr.noalegeek.noafabricmod.NoaFabricMod"
 		],
 		"fabric-datagen": [
-			"fr.noa.noafabricmod.NoaFabricModDataGenerator"
+			"fr.noalegeek.noafabricmod.NoaFabricModDataGenerator"
+		],
+		"client": [
+			"fr.noalegeek.noafabricmod.NoaFabricModClient"
 		]
 	},
 	"mixins": [

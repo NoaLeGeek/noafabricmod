@@ -1,4 +1,4 @@
-package fr.noa.noafabricmod;
+package fr.noalegeek.noafabricmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
